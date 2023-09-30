@@ -14,6 +14,9 @@ header{
     justify-content: space-between;
     padding: 16px;
     margin-bottom: px;
+    background-image: url(./img/ecoponto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header img{
     height: 150px;
