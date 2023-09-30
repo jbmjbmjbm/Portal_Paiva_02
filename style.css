@@ -5,7 +5,10 @@
 }
 
 body{
-    background-color:#DAA520
+    /*background-color:#DAA520;*/
+    background-image: url("./img/tec.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
@@ -55,6 +58,7 @@ main{
     width: 700px;
     margin: auto;
     padding-left: 12px;
+    
 }
 
 
