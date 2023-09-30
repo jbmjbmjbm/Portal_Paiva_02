@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body{
+    background-color:#DAA520
+}
+
+header{
+    background-color:brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: px;
+}
+header img{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.373);
+    
+}
+
+
+
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-left: 16px;
+    
+}
+
+a{
+    text-decoration: none;
+    background-color: #DAA520;
+    color:brown;
+    border-radius: 3px;
+
+}
+
+main{
+    /*background-color: rgb(255, 255, 255);*/
+    color: #FFFFFF;
+    padding-top: 16px;
+    width: 700px;
+    margin: auto;
+    padding-left: 12px;
+}
+
+
+section{
+    display: flex;
+}
+
+section div{
+    background-color: rgb(168, 158, 158);
+    /*margin: 16px;*/
+    padding: 24px;
+    height: 550px;
+    width: 300px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.41);
+}
+section div img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 5px;
+}
+
+h1{
+   font-size: 2rem;
+   text-align: center;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 1rem;
+    margin-bottom: 12px;
+    
+}
+h3 p{
+    font-size: 0.5rem;
+}
+
+
+
+
+
+
+
+
+footer{
+    margin-top: px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
