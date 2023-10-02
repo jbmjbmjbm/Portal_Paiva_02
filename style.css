@@ -9,6 +9,10 @@ body{
     background-image: url("./img/tec.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1920px;
+
+
+
 }
 
 header{
@@ -35,11 +39,13 @@ ul{
     display: flex;
     align-items: center;
     height: 100%;
+    
 }
 
 nav ul li{
     list-style-type: none;
     margin-left: 16px;
+   
     
 }
 
@@ -47,7 +53,9 @@ a{
     text-decoration: none;
     background-color: #DAA520;
     color:brown;
-    border-radius: 3px;
+    border-radius: 8px;
+    padding: 16px;
+   
 
 }
 
@@ -111,9 +119,11 @@ h3 p{
 
 
 
+
 footer{
     margin-top: px;
     background-color: brown;
     color: white;
     text-align: center;
 }
+
